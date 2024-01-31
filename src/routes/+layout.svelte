@@ -1,7 +1,6 @@
 <script>
-import "../app.pcss";
-import store from "../redux/store";
-
+	import '../app.pcss';
+	import store from '../redux/store';
 </script>
 
-<slot></slot>
+<slot />
