@@ -16,8 +16,7 @@
                 {/each}
             </Menubar.Content>
         {/each} -->
-        <BirthdayCollectionForm />
-        
+      <slot/>
 		<!-- <Menubar.Trigger>Nueva Colección</Menubar.Trigger> -->
 		<!-- <Menubar.Content>
 		</Menubar.Content> -->
