@@ -8,17 +8,6 @@
 
 <Menubar.Root>
 	<Menubar.Menu>
-		<!-- {#each menus as menu}
-            <Menubar.Trigger>{menu.name}</Menubar.Trigger>
-            <Menubar.Content>
-                {#each menu.options as option}
-                    <Menubar.Item on:click={option.command}>{option.name}</Menubar.Item>
-                {/each}
-            </Menubar.Content>
-        {/each} -->
       <slot/>
-		<!-- <Menubar.Trigger>Nueva Colección</Menubar.Trigger> -->
-		<!-- <Menubar.Content>
-		</Menubar.Content> -->
 	</Menubar.Menu>
 </Menubar.Root>
