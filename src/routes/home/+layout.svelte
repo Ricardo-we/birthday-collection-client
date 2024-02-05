@@ -8,11 +8,11 @@
 
 	const user = get(userWritable);
 
-	// onMount(() => {
-	// 	if (!user?.token) {
-	// 		goto('/');
-	// 	}
-	// });
+	onMount(() => {
+		if (!user?.token) {
+			goto('/');
+		}
+	});
 </script>
 
 <slot />
